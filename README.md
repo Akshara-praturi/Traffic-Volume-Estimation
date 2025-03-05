@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🚦 Traffic Intelligence: Advanced Traffic Volume Estimation  
 
 ## **📌 Overview**  
@@ -84,3 +85,6 @@ This will start the **Flask-based UI** where you can input conditions and get tr
 
 ## **📬 Contact & Contributions**  
 For any questions or contributions, feel free to Contact us.
+=======
+# Traffic-Volume-Estimation
+>>>>>>> 7e1c0ef5e1d5e9cf3a50691eec61b0ac97e8ee73
