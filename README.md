@@ -1,9 +1,6 @@
 <<<<<<< HEAD
-# 🚦 Traffic Intelligence: Advanced Traffic Volume Estimation  
-
-## **📌 Overview**  
-**Traffic Intelligence** is an AI-powered system for **traffic volume estimation** based on **historical traffic data, weather conditions, and time-based patterns**. The model helps in **traffic management, urban planning, and real-time congestion prediction**.  
-
+# 🚦 Traffic Intelligence:Traffic Volume Estimation  
+  
 ## **📂 Project Structure**  
 ```
 Traffic-Intelligence/
@@ -36,12 +33,7 @@ Traffic-Intelligence/
 │── requirements.txt          # Python dependencies  
 │── Sample.png                # Sample visualization output  
 │── README.md                 # Project documentation (this file)  
-```
 
-## **📊 Sample Output**  
-Below is a **sample visualization** generated from the model:  
-
-![Traffic Analysis Output](./Sample.png)  
 
 ## **📥 Dataset**  
 The dataset includes:  
