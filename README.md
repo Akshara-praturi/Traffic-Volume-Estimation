@@ -1,82 +1,198 @@
-<<<<<<< HEAD
-# 🚦 Traffic Intelligence:Traffic Volume Estimation  
-  
-## **📂 Project Structure**  
-```
-Traffic-Intelligence/
-│── models/                   # Trained model files  
-│   ├── best_model.pkl  
-│   ├── encoder_holiday.pkl  
-│   ├── encoder_weather.pkl  
-│   ├── imputer.pkl  
-│   ├── scaler.pkl  
-│── static/                   # Static assets (CSS, JS, etc.)  
-│   ├── style.css  
-│── templates/                # HTML templates for Flask app  
-│   ├── index.html  
-│   ├── result.html  
-│── Analysis_Images/          # Stores visualized insights from the data  
-│   ├── correlation_heatmap.png  
-│   ├── missing_values.png  
-│   ├── pair_plot.png  
-│   ├── traffic_volume_distribution.png  
-│   ├── traffic_vs_weather.png  
-│   ├── weather_conditions.png  
-│── dataset/                  # Raw traffic data  
+# 🚦 Traffic Volume Estimation Using Machine Learning
+
+## Overview
+
+Traffic Volume Estimation is a machine learning-based web application that predicts road traffic volume using historical traffic data, weather conditions, and temporal factors. The system helps analyze traffic patterns and supports smarter transportation planning and traffic management.
+
+The project combines data analytics, machine learning, and web development to provide accurate traffic volume predictions through an interactive user interface.
+
+
+## Problem Statement
+
+Managing urban traffic efficiently requires accurate estimation of traffic volume. Traditional methods often struggle to adapt to changing environmental and temporal conditions.
+
+This project aims to:
+
+* Analyze historical traffic data.
+* Identify factors influencing traffic flow.
+* Build predictive machine learning models.
+* Provide traffic volume estimates through a web application.
+
+
+## Features
+
+* Traffic volume prediction using machine learning
+* Data preprocessing and feature engineering
+* Weather-based traffic analysis
+* Interactive web interface using Flask
+* Data visualization and exploratory analysis
+* Model performance evaluation
+* Traffic trend analysis
+
+
+## Technologies Used
+
+### Programming Languages
+
+* Python
+* HTML
+* CSS
+
+### Data Analysis
+
+* Pandas
+* NumPy
+
+### Data Visualization
+
+* Matplotlib
+* Seaborn
+
+### Machine Learning
+
+* Scikit-learn
+
+### Web Framework
+
+* Flask
+
+
+
+## Project Architecture
+
+1. Data Collection
+2. Data Cleaning and Preprocessing
+3. Exploratory Data Analysis (EDA)
+4. Feature Engineering
+5. Model Training
+6. Traffic Prediction
+7. Web-Based Deployment
+
+
+
+## Project Structure
+
+```text
+Traffic-Volume-Estimation/
+│
+├── app.py
+├── traffic_model.py
+├── model_analysis.py
 ├── traffic_volume.csv
-│── .gitignore                # Ignore unnecessary files  
-│── app.py                    # Flask web application  
-│── dataset_summary.txt       # Summary of dataset statistics  
-│── model_analysis.py         # Data analysis and visualization script  
-│── traffic_model.py          # Machine learning model for traffic prediction  
-│── traffic_volume.csv        # Dataset file  
-│── requirements.txt          # Python dependencies  
-│── Sample.png                # Sample visualization output  
-│── README.md                 # Project documentation (this file)  
+├── requirements.txt
+├── models/
+├── templates/
+├── static/
+├── Analysis_Images/
+└── README.md
+```
 
 
-## **📥 Dataset**  
-The dataset includes:  
-- **Date & Time:** Timestamp of traffic record  
-- **Weather Conditions:** Clear, Cloudy, Rain, Snow, etc.  
-- **Temperature (K):** Temperature in Kelvin  
-- **Precipitation (Rain/Snow):** Recorded in mm  
-- **Traffic Volume:** Number of vehicles passing through the checkpoint  
 
-## **📌 How to Use**  
+## Dataset Features
 
-### **1️⃣ Install Dependencies**  
+The dataset includes:
+
+* Date and Time
+* Weather Conditions
+* Temperature
+* Rainfall
+* Snowfall
+* Holiday Information
+* Traffic Volume
+
+These features are used to train machine learning models for traffic prediction.
+
+
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Akshara-praturi/Traffic-Volume-Estimation.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd Traffic-Volume-Estimation
+```
+
+Install dependencies:
+
 ```bash
 pip install -r requirements.txt
 ```
 
-### **2️⃣ Run Data Analysis**  
+
+
+## Running the Project
+
+### Data Analysis
+
 ```bash
 python model_analysis.py
 ```
-This script will process the dataset, clean missing values, and generate visualizations inside **Analysis_Images/**.
 
-### **3️⃣ Train the Model & Predict Traffic**  
+### Model Training
+
 ```bash
 python traffic_model.py
 ```
-This trains a machine learning model to predict traffic volume based on weather and time.
 
-### **4️⃣ Run the Flask Web App (Optional)**  
+### Launch Web Application
+
 ```bash
 python app.py
 ```
-This will start the **Flask-based UI** where you can input conditions and get traffic predictions.  
 
----
+Open the application in your browser after the server starts.
 
-## **🛠 Technologies Used**  
-- **Python (Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn)**  
-- **Machine Learning (Regression Models, Time-Series Forecasting)**  
-- **Flask (For Web Integration - Optional)**  
 
-## **📬 Contact & Contributions**  
-For any questions or contributions, feel free to Contact us.
-=======
-# Traffic-Volume-Estimation
->>>>>>> 7e1c0ef5e1d5e9cf3a50691eec61b0ac97e8ee73
+
+## Applications
+
+* Smart City Planning
+* Traffic Management Systems
+* Transportation Analytics
+* Urban Infrastructure Planning
+* Traffic Congestion Monitoring
+* Intelligent Transportation Systems (ITS)
+
+
+## Results
+
+The project successfully analyzes traffic patterns and predicts future traffic volume using machine learning algorithms, helping improve traffic planning and decision-making.
+
+
+
+## Learning Outcomes
+
+Through this project, I gained practical experience in:
+
+* Machine Learning Model Development
+* Data Preprocessing
+* Exploratory Data Analysis
+* Flask Web Development
+* Data Visualization
+* Predictive Analytics
+* Traffic Data Analysis
+
+
+## Future Enhancements
+
+* Real-time traffic prediction
+* Integration with live weather APIs
+* Advanced deep learning models
+* Interactive dashboards
+* Smart route recommendation system
+
+
+## Author
+
+**P. Akshara**
+
+B.Tech – Computer Science and Engineering
+
+Interested in Machine Learning, Data Science, Artificial Intelligence, and Predictive Analytics.
